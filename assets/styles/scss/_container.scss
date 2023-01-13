@@ -1,0 +1,33 @@
+.container {
+    width: calc(100% - 4.6em);
+    margin: auto;
+    margin-top: 3.4em;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+
+    &__img {
+        width: 100%;
+    }
+
+    &__title {
+        margin-top: 2.5em;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5em;
+    }
+
+    &__text {
+        margin-bottom: 2em;
+    }
+
+    &__btn {
+        background-color: white;
+        color: var(--primary-violet);
+        text-decoration: none;
+        border-radius: 2em;
+        padding: .8em 5.5em;
+        font-size: .9em;
+        box-shadow: 0 1px 5px rgba(0, 0, 0,.5);
+    }
+}

@@ -1,0 +1,19 @@
+.footer {
+    width: calc(100% - 4.6em);
+    margin: auto;
+    margin-top: 5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: .8em;
+
+    &__link {
+        color: white;
+        border: 1px solid white;
+        border-radius: 100%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        padding: .5em;
+    }
+}

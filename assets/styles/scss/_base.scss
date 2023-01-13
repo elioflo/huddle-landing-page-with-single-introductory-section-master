@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Poppins', sans-serif;
+
+body {
+    background-color: var(--primary-violet);
+    background-image: url('../../images/bg-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+}
