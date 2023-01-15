@@ -3,8 +3,17 @@
     width: calc(100% - 4.6em);
     margin: auto;
     padding-top: 2em;
-
+    
     &__logo {
         width: 130px;
+    }
+    
+    @media screen and (min-width: 800px) {
+        width: 85%;
+        padding-top: 4em;
+        padding-bottom: 3.5em;
+        &__logo {
+            width: 225px;
+        }   
     }
 }
