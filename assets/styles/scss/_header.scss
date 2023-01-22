@@ -1,3 +1,5 @@
+@import 'variables';
+@import 'mixins';
 
 .header {
     width: calc(100% - 4.6em);
@@ -8,7 +10,7 @@
         width: 130px;
     }
     
-    @media screen and (min-width: 800px) {
+    @include media-query($laptop){
         width: 85%;
         padding-top: 4em;
         padding-bottom: 3.5em;

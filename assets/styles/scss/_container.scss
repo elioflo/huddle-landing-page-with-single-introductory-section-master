@@ -1,3 +1,6 @@
+@import 'variables';
+@import 'mixins';
+
 .container {
     background-image: url('../../images/bg-mobile.svg');
     background-color: var(--primary-violet);
@@ -5,10 +8,11 @@
     background-size: contain;
     min-height: 100vh;
 
-    @media screen and (min-width: 800px) {
+    @include media-query($laptop){
         background-image: url('../../images/bg-desktop.svg');
         display: grid;
         background-size: 92% 100%;
         grid-template-rows: auto 1fr auto;
     }
+
 }

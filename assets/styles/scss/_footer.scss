@@ -1,12 +1,15 @@
+@import 'variables';
+@import 'mixins';
+
 .footer {
     width: calc(100% - 4.6em);
     margin: auto;
     margin-top: 5em;
+    padding-bottom: 3em;
     text-align: center;
     display: flex;
     justify-content: center;
     gap: .8em;
-    margin-bottom: 3em;
 
     &__link {
         color: white;
@@ -16,12 +19,18 @@
         justify-content: center;
         align-items: center;
         padding: .5em;
+
+        &:hover {
+            color: var(--primary-soft-magenta);
+            border-color: var(--primary-soft-magenta);
+        }
     }
 
-    @media screen and (min-width: 800px) {
+    @include media-query($laptop){
         justify-content: end;
         margin-top: 0;
         font-size: 20px;
         width: 85%;
     }
+
 }

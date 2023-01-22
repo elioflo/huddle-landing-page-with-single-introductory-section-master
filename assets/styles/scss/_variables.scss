@@ -2,3 +2,10 @@
   --primary-violet: hsl(257, 40%, 49%);
   --primary-soft-magenta: hsl(300, 69%, 71%);
 }
+
+$min-tablet: 426px;
+$min-laptop: 769px;
+$min-desktop: 1025px;
+$tablet: "(min-width: #{$min-tablet})";
+$laptop: "(min-width: #{$min-laptop})";
+$desktop: "(min-width: #{$min-desktop})";
